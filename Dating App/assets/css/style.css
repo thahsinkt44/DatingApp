@@ -1,0 +1,300 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+
+@font-face {
+    font-family: "montserrat";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Montserrat-Regular"),
+        url("../fonts/Montserrat-Regular.ttf") format("woff");
+}
+@font-face {
+    font-family: "roboto";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Montserrat-Regular"),
+        url("../fonts/Roboto-Regular.ttf") format("woff");
+}
+@font-face {
+    font-family: "vws";
+    font-style: normal;
+    font-weight: normal;
+    src: local("vwa"),
+        url("../fonts/vws.woff") format("woff");
+}
+@font-face {
+    font-family: "abel";
+    font-style: normal;
+    font-weight: normal;
+    src: local("abel-regular"),
+        url("../fonts/Abel-Regular.ttf") format("ttf");
+}
+
+body{
+    background: #faf3fb;
+    font-family: 'vws';
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+p {
+    font-family: 'avw';
+    letter-spacing: 1px;
+}
+h1{
+    margin-bottom: 0;
+}
+ul, li {
+    list-style: none;
+}
+
+
+#container{
+    background: #fdf7fd;
+}
+
+#container header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin: 0 auto;
+}
+#container header div.left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#container header div.left h3{
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #4b164c;
+    font-family: "vws", sans-serif;
+}
+#container header div nav{
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+#container header div nav img.icon{
+    display: block;
+    width: 100%;
+    padding: 15%;
+}
+#container header div.right{
+    display: flex;
+    align-items: center;
+}
+#container header div.right nav img.icon{
+    border: 1px solid #747074;
+    border-radius: 50%;
+}
+#container header div.right div.profile{
+    width: 50px;
+    height: 50px;
+}
+#container header div.right img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+#status {
+    width: 70%;
+    margin: 0 auto;
+}
+#status .wrapper {
+}
+#status .wrapper ul.list{
+    display: flex;
+    overflow: hidden;
+}
+#status .wrapper ul.list li.item{
+    text-align: center;
+    margin-right: 10px;
+}
+#status .wrapper ul.list li div{
+    
+    padding: 2px;
+    border-radius: 50%;
+}
+#status .wrapper ul.list li.item p{
+    font-family: "vws";
+    font-size: 12px;
+}
+#status .wrapper ul.list li div a{
+    
+}
+#status .wrapper ul.list li.item  img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #dd88cf;
+    padding: 2px;
+}
+#status .wrapper ul.list li.item:first-child  img{
+
+}
+#status .wrapper ul.list li div a{}
+#listing{
+    margin: 0 auto;
+}
+#listing div.container{
+    padding: 0;
+    margin: 0 auto;
+    background: #f8e7f6;
+    border-radius: 40px;
+}
+#listing div.container ul.list{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+#listing div.container ul.list li.item{
+    width: 33%;
+    padding: 5px;
+    text-align: center;
+}
+#listing div.container ul.list li.item p.item-name{
+    margin: 0 auto;
+}
+#listing div.container ul.list li.active{
+    color: #208aff;
+    background: #fff;
+    border-radius: 40px;;
+}
+
+
+#main{
+   margin-bottom: 50px;;
+}
+#main div.wrapper{
+}
+#main div.wrapper div.list{
+    justify-content: center;
+    overflow-y: scroll;
+}
+#main div.wrapper div.list div.item{
+    border-radius: 40px;
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    
+}
+#main div.wrapper div.list div.item div.wrapper{
+    position: relative;
+}
+#main div.wrapper div.list div.item div.wrapper img.profile{ 
+    height: 130px;
+    display: block;
+    background-image: cover;
+    border-radius: 20px;
+    width: 100%;
+}
+#main div.wrapper div.list div.item p{
+ 
+}
+#main div.wrapper div.list div.item p.online{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 15px;
+    font-size: 8px;
+    font-family: 'vws';
+    opacity: .6;
+    padding: 0px 3px;
+    opacity: .6;
+}
+#main div.wrapper div.list div.item h6.name{
+    position: absolute;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    left: 15px;
+    bottom:20px;
+    text-shadow: .5px #747074;
+}
+div.item p {
+    font-family: 'vws';
+}
+#main div.wrapper div.list div.item p.designation{
+    position: absolute;
+    color: #fdfdfd;
+    left: 15px;
+    bottom: 2px;
+    font-size: 8px;
+    font-size: 6px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    height: 80px;
+    justify-content: space-around;
+    top: 15px;
+    position: absolute;
+    right: 1px;
+    background:rgb(201, 192, 192,.8);
+    
+    padding: 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: -20px;
+    border-bottom-left-radius: 20px;
+}
+.actions i {
+    height: 60%;
+}
+.actions img {
+    display: block;
+    height:15px;
+    width: 15px;
+
+    color: #fff;
+    cursor: pointer;
+}
+#main div.wrapper div.list div.item p.location{}
+
+
+
+
+.fixed-bottom {
+    
+    margin: 0 auto 8px;
+    background: #ffffff;
+    box-shadow: 0px 0px 2px #888888;
+  }
+  
+  .fixed-bottom a {
+    display: block;
+    
+  }
+  .fixed-bottom a.active i{
+    background: #dd88cf ;
+    margin: 0 auto;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .container-fluid {
+    margin: 0 auto;
+  }
+  .fixed-bottom a.active {
+    
+  }
+  .btn-group{
+    border-radius: 20px;
+  }
+  .icon1{
+    height: 40px;
+    width: 40px;
+  }
+  .icon1:hover {
+  }
