@@ -1,0 +1,33 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.wrapper{
+    max-width: 70%;
+    /* margin: 0 auto; */
+    text-align: center;
+    max-height: 100vh;
+    margin: 0 auto;
+    height: 200px;
+}
+h6 {
+    width: 150px;
+    margin: 0 auto 5px;
+    padding: 10px;
+    background: red;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.men{
+    background: #5856d6;
+}
+.women{
+    background: #ff2d55;
+}
+.both{
+    background: linear-gradient(to right, #017afe, #fff);
+}
